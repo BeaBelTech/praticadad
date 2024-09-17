@@ -1,0 +1,61 @@
+.container {
+    width: 230px;
+    height: 488px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 40px 80px 40px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: #3A4F39;
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.ativo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.inativo {
+    display: flex;
+    align-items: center;
+    opacity: 0.3;
+    gap: 8px;
+}
+
+.container_topics {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.info {
+    text-align: center;
+    gap: 4px;
+}
+
+.preco {
+    font-weight: 600;
+    font-size: 32px;
+    color: #2D2E2E;
+}
+
+.button {
+    width: 170px;
+    height: 51px;
+    border-radius: 4px;
+    padding: 17px 30px 17px 30px;
+    gap: 10px;
+    background-color: #008000;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
